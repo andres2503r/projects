@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f3f5f9;
+}
+:root{
+    --color-button-update: #1D85FF;
+    --color-button-cancel: #ff1d1d;
+    --color-text: #ffffff;
+    --color-form: #fcfcfc;
+}
+/* h1{
+    margin: 20px;
+} */
+.cont-principal{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    width: 400px;
+    padding: 4.5em 3em; 
+    border-radius: 15px;
+    text-align: center;
+    background-color:var(--color-form);
+}
+.form{
+    box-shadow: 0px 0px 10px 1px var(--color-button-update);
+    border: var(--color-button-update);
+}
+.form_2{
+    box-shadow: 1px 5px 20px 2px red;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+.content{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.file{
+    cursor: pointer;
+}
+.group{
+    position: relative;
+}
+.upload_btn{
+    width: 100%;
+    background: none;
+    padding: 4px 115px;
+    cursor: pointer;
+    height:  40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-text);
+    background-color: #1D85FF;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    display: block;
+}
+
+.upload_btn:hover, .cancel_btn:hover, .buttonReturn:hover{
+    opacity: .7;
+}
+.cancel_btn{
+    width: 100%;
+    background: none;
+    color: var(--color-text);
+    font-size: 1rem;
+    padding: 4px 115px;
+    border: none;
+    cursor: pointer;
+    height:  40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-text);
+    background-color: var(--color-button-cancel);
+    border-radius: 6px;
+    border: 2px solid #b00000;
+    display: none;
+}
+.buttonReturn{
+    
+    width: 100%;
+    background: none;
+    padding: 4px 115px;
+    cursor: pointer;
+    height:  40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-text);
+    background-color: var(--color-button-cancel);
+    border-radius: 6px;
+    border: 2px solid #b00000;
+}

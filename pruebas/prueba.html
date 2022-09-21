@@ -1,0 +1,137 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/pruebas/prueba.css">
+</head>
+<body>
+  <div class="content">
+    <div class="content-2">
+      <header class="header">
+        <h1>Access Control</h1>
+        <div class="content-img">
+          <img src="/pruebas/img/Img.png" class="IMG">
+        </div>
+      </header>
+    </div>
+    <div class="content--">
+      <div class="content-buttons">
+        <!-- boton 1 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 2 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 3 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 4 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 5 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 6 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+        <!-- boton 7 -->
+        <!-- <a href="#" class="btn">HOVER</a> -->
+      <!-- </div>
+      <div class="cub">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat deleniti cumque ducimus animi, maxime illo hic quisquam! Minus odio eos quaerat recusandae exercitationem quia adipisci harum temporibus unde iusto. </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- <div>
+    <button id="btn1">click</button>
+    <button id="btn2">click</button>
+    <div>
+      <div id="table1">
+        <table >
+          <thead>
+            <th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </th>
+          </thead>
+        </table>
+      </div>
+      
+      <div id="table2">
+        <table >
+          <thead>
+            <th>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </th>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <script>
+      $(function (){
+        let table = $("#table1");
+        oculto = false;
+        
+        $("btn1").click (() => {
+          
+          if (oculto){
+            table.show();
+          }else {
+            table.hide();
+          }
+          oculto = !oculto;
+        })
+      });
+    </script>
+  </div> -->
+  <p id="miParrafo" style="display: none ;">
+    xd
+  </p>
+  <button id="botonAccion">Click</button>
+  <script>
+    // $(function () {
+    //   let miPArrafo = $("miParrafo");
+    //   var estaOculto = false;
+    //   $("botonAccion").click(() => {
+    //     if (estaOculto) {
+    //       miPArrafo.show();
+    //     } else {
+    //       miPArrafo.hide();
+    //     }
+    //     estaOculto = !estaOculto
+    //   }) 
+    // })
+    document.getElementById("botonAccion").addEventListener("click", () =>{
+      
+      prueba()
+    })
+    function prueba() {
+      let veamos = false;
+      alert("si");
+      if (veamos => false){
+        document.getElementById("miParrafo").style.display = "block"
+        veamos => true;
+        alert("correcto")
+      } else{
+        document.getElementById("miParrafo").style.display = "none"
+        veamos = false ;
+        alert("mal")
+      }
+    }
+  </script>
+  
+</body>
+</html>

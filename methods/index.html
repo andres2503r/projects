@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="container_2">
+        <div class="opblock">
+          <button id="btn1" onclick="show1()" class="deploy_button1">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-1" onclick="disable1()" class="deploy_button-1">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide1" class="table-align1">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>                   
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn2" onclick="show2()" class="deploy_button2">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-2" onclick="disable2()" class="deploy_button-2">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide2" class="table-align2">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                          <td>
+                            <div>
+                              <p>Additional data to pass to server</p>
+                            </div>
+                            <input class="id-input" type="text" placeholder="PetId">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>INFOO1</td>
+                          <td>
+                            <div>
+                              <p>file to upload</p>
+                            </div>
+                            <input class="file" type="file" placeholder="PetId">
+                          </td>
+                        </tr>
+                      </tbody>                   
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="container-responses">
+                <div class="opblock-section-header">
+                  <h4>Responses</h4>
+                  <div>
+                    <span>Responses content type</span>
+                    <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                  <div class="table-container-2">
+                    <table class="parameters-2">
+                      <thead class="table-heade-2">
+                        <tr>
+                          <th>Code</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody class="parameters-tbody-2">
+                        <tr>
+                          <td class="">200</td>
+                          <td class="">El tal Json</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opblock">
+              <button id="btn3" onclick="show3()" class="deploy_button3">
+                <span class="post">POST</span>
+                <span class="text">/........</span>
+                <span class="Uploads-image">Uploads na image</span>
+              </button>
+            </div>
+            <div class="opblock">
+              <button id="btn-3" onclick="disable3()" class="deploy_button-3">
+                <span class="post">POST</span>
+                <span class="text">/........</span>
+                <span class="Uploads-image">Uploads na image</span>
+              </button>
+            </div>
+            <div id="hide3" class="table-align3">
+              <div class="table-body">
+                <div class="opblock-section">
+                  <div class="opblock-section-header">
+                    <div><h4>Parameters</h4></div>
+                    <div><button class="try-it-out">Try it out</button></div>
+                  </div>
+                  <div class="parameters-table">
+                    <div class="table-container">
+                      <table class="parameters">
+                        <thead class="table-header">
+                          <tr>
+                            <th class="col-header">Name</th>
+                            <th class="col-header">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody class="parameters-tbody">
+                          <tr>
+                            <td>
+                              <div class="parameters-name">
+                                INFOO1
+                              </div>
+                            </td>
+                            <td>
+                              <div>
+                                <p>ID of pet to update</p>
+                              </div>
+                              <input class="id-input" type="text" placeholder="PetIdd">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>INFOO1</td>
+                            <td>
+                              <div>
+                                <p>Additional data to pass to server</p>
+                              </div>
+                              <input class="id-input" type="text" placeholder="PetId">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>INFOO1</td>
+                            <td>
+                              <div>
+                                <p>file to upload</p>
+                              </div>
+                              <input class="file" type="file" placeholder="PetId">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-responses">
+                <div class="opblock-section-header">
+                  <h4>Responses</h4>
+                  <div>
+                    <span>Responses content type</span>
+                    <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="table-container-2">
+                  <table class="parameters-2">
+                    <thead class="table-heade-2">
+                      <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody class="parameters-tbody-2">
+                      <tr>
+                        <td class="">200</td>
+                        <td class="">El tal Json</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="opblock">
+            <button id="btn4" onclick="show4()" class="deploy_button4">
+              <span class="post">POST</span>
+              <span class="text">/........</span>
+              <span class="Uploads-image">Uploads na image</span>
+            </button>
+          </div>
+          <div class="opblock">
+            <button id="btn-4" onclick="disable4()" class="deploy_button-4">
+              <span class="post">POST</span>
+              <span class="text">/........</span>
+              <span class="Uploads-image">Uploads na image</span>
+            </button>
+          </div>
+          <div id="hide4" class="table-align4">
+            <div class="table-body">
+              <div class="opblock-section">
+                <div class="opblock-section-header">
+                  <div><h4>Parameters</h4></div>
+                  <div><button class="try-it-out">Try it out</button></div>
+                </div>
+                <div class="parameters-table">
+                  <div class="table-container">
+                    <table class="parameters">
+                      <thead class="table-header">
+                        <tr>
+                          <th class="col-header">Name</th>
+                          <th class="col-header">Description</th>
+                        </tr>
+                      </thead>                  
+                      <tbody class="parameters-tbody">
+                        <tr>
+                          <td>
+                            <div class="parameters-name">
+                              INFOO1
+                            </div>
+                          </td>
+                          <td>
+                            <div>
+                              <p>ID of pet to update</p>
+                            </div>
+                            <input class="id-input" type="text" placeholder="PetIdd">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>INFOO1</td>
+                          <td>
+                            <div>
+                              <p>Additional data to pass to server</p>
+                            </div>
+                            <input class="id-input" type="text" placeholder="PetId">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>INFOO1</td>
+                          <td>
+                            <div>
+                              <p>file to upload</p>
+                            </div>
+                            <input class="file" type="file" placeholder="PetId">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="container-responses">
+                <div class="opblock-section-header">
+                  <h4>Responses</h4>
+                  <div>
+                    <span>Responses content type</span>
+                    <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              <div class="table-container-2">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn5" onclick="show5()" class="deploy_button5">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-5" onclick="disable5()" class="deploy_button-5">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide5" class="table-align5">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>                    
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>                   
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn6" onclick="show6()" class="deploy_button6">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-6" onclick="disable6()" class="deploy_button-6">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide6" class="table-align6">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>                   
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>        
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2">
+                <table class="parameters-2">
+                    <thead class="table-heade-2">
+                      <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody class="parameters-tbody-2">
+                      <tr>
+                        <td class="">200</td>
+                        <td class="">El tal Json</td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn7" onclick="show7()" class="deploy_button7">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-7" onclick="disable7()" class="deploy_button-7">
+            <span class="post">POST</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide7" class="table-align7">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>                   
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>                  
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>               
+      </div>
+      <div class="container_3">
+        <div class="opblock">
+          <button id="btn1_" onclick="show1_()" class="deploy_button1_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-1_" onclick="disable1_()" class="deploy_button-1_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide1_" class="table-align1_">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out2">Try it out</button></div>
+              </div>
+              <div class="parameters-table2">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>                 
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>                 
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                      <select  id="content-type">
+                        <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2_">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn2_" onclick="show2_()" class="deploy_button2_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-2_" onclick="disable2_()" class="deploy_button-2_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide2_" class="table-align2_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>                 
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                 
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                    <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn3_" onclick="show3_()" class="deploy_button3_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-3_" onclick="disable3_()" class="deploy_button-3_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide3_" class="table-align3_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>                 
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                 
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                    <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn4_" onclick="show4_()" class="deploy_button4_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-4_" onclick="disable4_()" class="deploy_button-4_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide4_" class="table-align4_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>                 
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                 
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                      <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn5_" onclick="show5_()" class="deploy_button5_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-5_" onclick="disable5_()" class="deploy_button-5_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide5_" class="table-align5_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>             
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                 
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                    <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn6_" onclick="show6_()" class="deploy_button6_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-6_" onclick="disable6_()" class="deploy_button-6_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide6_" class="table-align6_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>         
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                  
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn7_" onclick="show7_()" class="deploy_button7_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-7_" onclick="disable7_()" class="deploy_button-7_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide7_" class="table-align7_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>                 
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>                  
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                    <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="opblock">
+          <button id="btn8_" onclick="show8_()" class="deploy_button8_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div class="opblock">
+          <button id="btn-8_" onclick="disable8_()" class="deploy_button-8_">
+            <span class="get">GET</span>
+            <span class="text">/........</span>
+            <span class="Uploads-image">Uploads na image</span>
+          </button>
+        </div>
+        <div id="hide8_" class="table-align8_">
+          <div class="table-body">
+            <div class="opblock-section">
+              <div class="opblock-section-header">
+                <div><h4>Parameters</h4></div>
+                <div><button class="try-it-out">Try it out</button></div>
+              </div>
+              <div class="parameters-table2">
+                <div class="table-container">
+                  <table class="parameters">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="col-header">Name</th>
+                        <th class="col-header">Description</th>
+                      </tr>
+                    </thead>               
+                    <tbody class="parameters-tbody">
+                      <tr>
+                        <td>
+                          <div class="parameters-name">
+                            INFOO1
+                          </div>
+                        </td>
+                        <td>
+                          <div>
+                            <p>ID of pet to update</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetIdd">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>Additional data to pass to server</p>
+                          </div>
+                          <input class="id-input" type="text" placeholder="PetId">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>INFOO1</td>
+                        <td>
+                          <div>
+                            <p>file to upload</p>
+                          </div>
+                          <input class="file" type="file" placeholder="PetId">
+                        </td>
+                      </tr>
+                    </tbody>                   
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="container-responses">
+              <div class="opblock-section-header">
+                <h4>Responses</h4>
+                <div>
+                  <span>Responses content type</span>
+                  <div>
+                    <select  id="content-type">
+                      <option value="">Application/Json</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-container-2_">
+                <table class="parameters-2">
+                  <thead class="table-heade-2">
+                    <tr>
+                      <th>Code</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody class="parameters-tbody-2">
+                    <tr>
+                      <td class="">200</td>
+                      <td class="">El tal Json</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+        <button id="btn9_" onclick="show9_()" class="deploy_button9_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div class="opblock">
+        <button id="btn-9_" onclick="disable9_()" class="deploy_button-9_">
+          <span class="get">GET</span>
+          <span class="text">/........</span>
+          <span class="Uploads-image">Uploads na image</span>
+        </button>
+      </div>
+      <div id="hide9_" class="table-align9_">
+        <div class="table-body">
+          <div class="opblock-section">
+            <div class="opblock-section-header">
+              <div><h4>Parameters</h4></div>
+              <div><button class="try-it-out">Try it out</button></div>
+            </div>
+            <div class="parameters-table2">
+              <div class="table-container">
+                <table class="parameters">
+                  <thead class="table-header">
+                    <tr>
+                      <th class="col-header">Name</th>
+                      <th class="col-header">Description</th>
+                    </tr>
+                  </thead>               
+                  <tbody class="parameters-tbody">
+                    <tr>
+                      <td>
+                        <div class="parameters-name">
+                          INFOO1
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <p>ID of pet to update</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetIdd">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>Additional data to pass to server</p>
+                        </div>
+                        <input class="id-input" type="text" placeholder="PetId">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>INFOO1</td>
+                      <td>
+                        <div>
+                          <p>file to upload</p>
+                        </div>
+                        <input class="file" type="file" placeholder="PetId">
+                      </td>
+                    </tr>
+                  </tbody>                
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="container-responses">
+            <div class="opblock-section-header">
+              <h4>Responses</h4>
+              <div>
+                <span>Responses content type</span>
+                <div>
+                  <select  id="content-type">
+                    <option value="">Application/Json</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="table-container-2_">
+              <table class="parameters-2">
+                <thead class="table-heade-2">
+                  <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody class="parameters-tbody-2">
+                  <tr>
+                    <td class="">200</td>
+                    <td class="">El tal Json</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="opblock">
+      <button id="btn10_" onclick="show10_()" class="deploy_button10_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div class="opblock">
+      <button id="btn-10_" onclick="disable10_()" class="deploy_button-10_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div id="hide10_" class="table-align10_">
+      <div class="table-body">
+        <div class="opblock-section">
+          <div class="opblock-section-header">
+            <div><h4>Parameters</h4></div>
+            <div><button class="try-it-out">Try it out</button></div>
+          </div>
+          <div class="parameters-table2">
+            <div class="table-container">
+              <table class="parameters">
+                <thead class="table-header">
+                  <tr>
+                    <th class="col-header">Name</th>
+                    <th class="col-header">Description</th>
+                  </tr>
+                </thead>               
+                <tbody class="parameters-tbody">
+                  <tr>
+                    <td>
+                      <div class="parameters-name">
+                        INFOO1
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <p>ID of pet to update</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetIdd">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>Additional data to pass to server</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetId">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>file to upload</p>
+                      </div>
+                      <input class="file" type="file" placeholder="PetId">
+                    </td>
+                  </tr>
+                </tbody>               
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="container-responses">
+          <div class="opblock-section-header">
+            <h4>Responses</h4>
+            <div>
+              <span>Responses content type</span>
+              <div>
+                <select  id="content-type">
+                  <option value="">Application/Json</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="table-container-2_">
+            <table class="parameters-2">
+              <thead class="table-heade-2">
+                <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody class="parameters-tbody-2">
+                <tr>
+                  <td class="">200</td>
+                  <td class="">El tal Json</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="opblock">
+      <button id="btn11_" onclick="show11_()" class="deploy_button11_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div class="opblock">
+      <button id="btn-11_" onclick="disable11_()" class="deploy_button-11_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div id="hide11_" class="table-align11_">
+      <div class="table-body">
+        <div class="opblock-section">
+          <div class="opblock-section-header">
+            <div><h4>Parameters</h4></div>
+            <div><button class="try-it-out">Try it out</button></div>
+          </div>
+          <div class="parameters-table2">
+            <div class="table-container">
+              <table class="parameters">
+                <thead class="table-header">
+                  <tr>
+                    <th class="col-header">Name</th>
+                    <th class="col-header">Description</th>
+                  </tr>
+                </thead>         
+                <tbody class="parameters-tbody">
+                  <tr>
+                    <td>
+                      <div class="parameters-name">
+                        INFOO1
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <p>ID of pet to update</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetIdd">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>Additional data to pass to server</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetId">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>file to upload</p>
+                      </div>
+                      <input class="file" type="file" placeholder="PetId">
+                    </td>
+                  </tr>
+                </tbody>               
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="container-responses">
+          <div class="opblock-section-header">
+            <h4>Responses</h4>
+            <div>
+              <span>Responses content type</span>
+              <div>
+                <select  id="content-type">
+                  <option value="">Application/Json</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="table-container-2_">
+            <table class="parameters-2">
+              <thead class="table-heade-2">
+                <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody class="parameters-tbody-2">
+                <tr>
+                  <td class="">200</td>
+                  <td class="">El tal Json</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="opblock">
+      <button id="btn12_" onclick="show12_()" class="deploy_button12_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div class="opblock">
+      <button id="btn-12_" onclick="disable12_()" class="deploy_button-12_">
+        <span class="get">GET</span>
+        <span class="text">/........</span>
+        <span class="Uploads-image">Uploads na image</span>
+      </button>
+    </div>
+    <div id="hide12_" class="table-align12_">
+      <div class="table-body">
+        <div class="opblock-section">
+          <div class="opblock-section-header">
+            <div><h4>Parameters</h4></div>
+            <div><button class="try-it-out">Try it out</button></div>
+          </div>
+          <div class="parameters-table2">
+            <div class="table-container">
+              <table class="parameters">
+                <thead class="table-header">
+                  <tr>
+                    <th class="col-header">Name</th>
+                    <th class="col-header">Description</th>
+                  </tr>
+                </thead>             
+                <tbody class="parameters-tbody">
+                  <tr>
+                    <td>
+                      <div class="parameters-name">
+                        INFOO1
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <p>ID of pet to update</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetIdd">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>Additional data to pass to server</p>
+                      </div>
+                      <input class="id-input" type="text" placeholder="PetId">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>INFOO1</td>
+                    <td>
+                      <div>
+                        <p>file to upload</p>
+                      </div>
+                      <input class="file" type="file" placeholder="PetId">
+                    </td>
+                  </tr>
+                </tbody>              
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="container-responses">
+          <div class="opblock-section-header">
+            <h4>Responses</h4>
+            <div>
+              <span>Responses content type</span>
+              <div>
+                <select  id="content-type">
+                  <option value="">Application/Json</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="table-container-2_">
+            <table class="parameters-2">
+              <thead class="table-heade-2">
+                <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody class="parameters-tbody-2">
+                <tr>
+                  <td class="">200</td>
+                  <td class="">El tal Json</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
