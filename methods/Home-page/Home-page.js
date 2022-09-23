@@ -13,6 +13,9 @@ btn.forEach((value, i) =>{
         
     })
 })
+function returning(){
+    window.location.href = "../Home-page/Home-page.html";
+}
 // buttons method
 const table = document.querySelectorAll(".table")
 const button = document.querySelectorAll(".btnfunction")
