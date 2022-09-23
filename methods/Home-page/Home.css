@@ -59,7 +59,7 @@ h1{
     flex-direction: column;
     z-index: 1;
 }
-.btn{
+.btn-{
     
     background: none;
     height: 90px;
@@ -69,10 +69,10 @@ h1{
     cursor: pointer;
     font-size: x-large; 
 }
-.btn:hover{
+.btn-:hover{
     box-shadow: -1px -1px 5px 2px;
 }
-.btn-5{
+.btn-2{
     border-bottom: none;
 }
 .content{
@@ -82,4 +82,9 @@ h1{
 img{
     height: 400px;
     opacity: 12%;
+    position: absolute;
+}
+
+.tablefunction{
+    display: none;
 }

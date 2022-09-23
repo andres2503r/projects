@@ -1,236 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/metodos/INPUT/input.css" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="container_2">
-                <div class="header-block">
-                    <header class="header">
-                        <h1 class="title">Access Control</h1>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
-                            <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
-                            <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
-                            </svg>
-                        </div>
-                    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/methods/Home-page/Home.css">
+</head>
+<body>
+    <div class="cont principal-container">
+        <div>
+            <header>
+                <div>
+                    <h1>Access Control</h1>
                 </div>
-                <div class="subtitle">
-                    <h2>Input</h2>
-                </div>
-                <div class="opblock">
-                    <button id="btn" onclick="show()" class="deploy_button">
-                        <span class="post">POST</span>
-                        <span class="text">/........</span>
-                        <span class="Uploads-image">Uploads na image</span>
-                    </button>
-                </div>
-                <div class="opblock">
-                    <button id="btn-2" onclick="disable()" class="deploy_button-2">
-                        <span class="post">POST</span>
-                        <span class="text">/........</span>
-                        <span class="Uploads-image">Uploads na image</span>
-                    </button>
-                </div>
-                <div id="hide" class="table-align">
-                    <div class="table-body">
-                        <div class="opblock-section">
-                            <div class="opblock-section-header">
-                                <div><h4>Parameters</h4></div>
-                                <div><button id="" class="try-it-out">Try it out</button></div>
-                            </div>
-                            <div class="parameters-table">
-                                <div class="table-container">
-                                    <table class="parameters">
-                                        <thead class="table-header">
-                                            <tr>
-                                                <th class="col-header">Name</th>
-                                                <th class="col-header">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="parameters-tbody">
-                                            <tr>
-                                                <td>
-                                                    <div class="parameters-name">INFOO1</div>
-                                                </td>
-                                                <td>
-                                                    <div>
-                                                        <p>ID of pet to update</p>
-                                                    </div>
-                                                    <input class="id-input" type="text"placeholder="PetIdd"/>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>INFOO1</td>
-                                                <td>
-                                                    <div>
-                                                        <p>Additional data to pass to server</p>
-                                                    </div>
-                                                    <input class="id-input" type="text" placeholder="PetId"/>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>INFOO1</td>
-                                                <td>
-                                                    <div>
-                                                        <p>file to upload</p>
-                                                    </div>
-                                                    <input class="file" type="file" placeholder="PetId" />
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div id="execute" class="btn-execute">
-                                    <button class="execute">Execute</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-responses">
-                            <div class="opblock-section-header">
-                                <h4>Responses</h4>
-                                <div>
-                                    <span>Responses content type</span>
-                                <div>
-                                    <select id="content-type">
-                                        <option value="">Application/Json</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="table-container-2">
-                            <table class="parameters-2">
-                                <thead class="table-heade-2">
-                                    <tr>
-                                        <th>Code</th>
-                                        <th>Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="parameters-tbody-2">
-                                    <tr>
-                                        <td class="">200</td>
-                                        <td class="">El tal Json</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+            </header>
+        </div>
+        <div class="cont second-container">
+            <div class="card card-1">
+                <div class="buttons-content buttons">
+                    <input type="button" class="btn- btnfunction" value="GET CONFIGURATION INPUT">
+                    <input type="button" class="btn- btnfunction" value="POST UPDATE INPUT">
                 </div>
             </div>
-            <!-- SIGUIENTE BOTON -->
-            <div class="opblock">
-                <button id="btn3" onclick="show3()" class="deploy_button3_">
-                    <span class="get">GET</span>
-                    <span class="text">/........</span>
-                    <span class="Uploads-image">Uploads na image</span>
-                </button>
-            </div>
-            <div class="opblock">
-                <button id="btn-3" onclick="disable3()" class="deploy_button-3_">
-                    <span class="get">GET</span>
-                    <span class="text">/........</span>
-                    <span class="Uploads-image">Uploads na image</span>
-                </button>
-            </div>
-            <div id="hide3" class="table-align3_">
-                <div class="table-body">
-                    <div class="opblock-section">
-                        <div class="opblock-section-header">
-                            <div><h4>Parameters</h4></div>
-                            <div><button class="try-it-out">Try it out</button></div>
-                        </div>
-                        <div class="parameters-table2">
-                            <div class="table-container">
-                                <table class="parameters">
-                                    <thead class="table-header">
-                                        <tr>
-                                            <th class="col-header">Name</th>
-                                            <th class="col-header">Description</th>
-                                        </tr>
-                                    </thead>                 
-                                    <tbody class="parameters-tbody">
-                                        <tr>
-                                            <td>
-                                                <div class="parameters-name">
-                                                    INFOO1
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div>
-                                                    <p>ID of pet to update</p>
-                                                </div>
-                                                <input class="id-input" type="text" placeholder="PetIdd">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>INFOO1</td>
-                                            <td>
-                                                <div>
-                                                    <p>Additional data to pass to server</p>
-                                                </div>
-                                                <input class="id-input" type="text" placeholder="PetId">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>INFOO1</td>
-                                            <td>
-                                                <div>
-                                                    <p>file to upload</p>
-                                                </div>
-                                                <input class="file" type="file" placeholder="PetId">
-                                            </td>
-                                        </tr>
-                                    </tbody>                 
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-responses">
-                        <div class="opblock-section-header">
-                            <h4>Responses</h4>
-                            <div>
-                                <span>Responses content type</span>
-                                    <div>
-                                        <select  id="content-type">
-                                            <option value="">Application/Json</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="table-container-2_">
-                                <table class="parameters-2">
-                                    <thead class="table-heade-2">
-                                        <tr>
-                                            <th>Code</th>
-                                            <th>Description</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="parameters-tbody-2">
-                                        <tr>
-                                            <td class="">200</td>
-                                            <td class="">El tal Json</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+            <div class="card card-2">
+                <div class="buttons-content content">
+                    <img src="/methods/Home-page/img/Img.png">
+                    <div class="tablets">
+                        <table class="table tablefunction">
+                            <thead>
+                                <tr>
+                                    <th>2</th>
+                                    <th>3</th>
+                                </tr>
+                                
+                            </thead>
+                            
+                        </table>
+                        <table class="table tablefunction">
+                            <thead>
+                                <tr>
+                                    <th>4</th>
+                                    <th>5</th>
+                                </tr>
+                                
+                            </thead>
+                            
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="/metodos/INPUT/input.js"></script>
-    </body>
+        <script src="/methods/Home-page/Home-page.js"></script>
+    </div>
+</body>
 </html>
